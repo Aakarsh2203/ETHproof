@@ -71,21 +71,21 @@ Once the contract is deployed, you can interact with it by calling the mint and 
 
 ### mint Function
 
-It takes two parameters: an address (_address) and a value (_value).
+It takes two parameters: an address (_account) and a value (_value).
 
 It increases the totalSupply by the amount specified in val.
 
-It also increases the balance of the address _address by the same amount.
+It also increases the balance of the address _account by the same amount.
 
 ### burn Function
 
-It takes two parameters: an address (_address) and a value (_value).
+It takes two parameters: an address (_account) and a value (_value).
 
-It first checks if the balance of the address _address is greater than or equal to the amount specified in _value.
+It first checks if the balance of the address _account is greater than or equal to the amount specified in _value.
 
 If the condition is met, it decreases the totalSupply by the amount specified in _value.
 
-It also decreases the balance of the address _address by the same amount.
+It also decreases the balance of the address _account by the same amount.
 
 ## License
 
