@@ -3,7 +3,7 @@ This Solidity smart contract "MyToken"  is a basic ERC20-like token. The contrac
 
 ## Prerequisites
 
-Solidity compiler version: 0.8.26
+Solidity compiler version: 0.8.18
 
 ## Description
 
